@@ -1,0 +1,36 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.header, .hero {
+    display: flex;
+    background-color: #1f2937;
+}
+
+.header {
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+}
+.links
+{
+    display: flex;
+    gap: 20px;
+}
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.logo {
+    margin: 0;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
