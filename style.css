@@ -78,6 +78,7 @@ button {
     width: fit-content;
     color: white;
     border: none;
+    outline: none;
 }
 
 .information {
@@ -176,7 +177,8 @@ button {
 }
 
 .sign_up button {
-    outline: 2px solid white;
+    border: 2px solid white;
     align-self: center;
     margin-left: auto;
+    outline: none;
 }
